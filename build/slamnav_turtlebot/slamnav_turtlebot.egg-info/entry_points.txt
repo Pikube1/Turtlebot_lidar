@@ -1,0 +1,3 @@
+[console_scripts]
+joy_teleop = slamnav_turtlebot.joy_teleop:main
+

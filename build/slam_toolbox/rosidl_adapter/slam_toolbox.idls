@@ -1,0 +1,10 @@
+/home/pierres/COURS/slamnav/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/Pause.idl
+/home/pierres/COURS/slamnav/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/ClearQueue.idl
+/home/pierres/COURS/slamnav/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/ToggleInteractive.idl
+/home/pierres/COURS/slamnav/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/Clear.idl
+/home/pierres/COURS/slamnav/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/SaveMap.idl
+/home/pierres/COURS/slamnav/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/LoopClosure.idl
+/home/pierres/COURS/slamnav/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/MergeMaps.idl
+/home/pierres/COURS/slamnav/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/AddSubmap.idl
+/home/pierres/COURS/slamnav/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/DeserializePoseGraph.idl
+/home/pierres/COURS/slamnav/build/slam_toolbox/rosidl_adapter/slam_toolbox:srv/SerializePoseGraph.idl

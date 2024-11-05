@@ -1,0 +1,1 @@
+/home/pierres/COURS/slamnav/src/navigation2/nav2_simple_commander/launch/picking_demo_launch.py

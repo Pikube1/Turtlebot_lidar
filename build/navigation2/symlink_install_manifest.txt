@@ -1,0 +1,15 @@
+/home/pierres/COURS/slamnav/install/navigation2/share/ament_index/resource_index/package_run_dependencies/navigation2
+/home/pierres/COURS/slamnav/install/navigation2/share/ament_index/resource_index/parent_prefix_path/navigation2
+/home/pierres/COURS/slamnav/install/navigation2/share/navigation2/environment/ament_prefix_path.sh
+/home/pierres/COURS/slamnav/install/navigation2/share/navigation2/environment/ament_prefix_path.dsv
+/home/pierres/COURS/slamnav/install/navigation2/share/navigation2/environment/path.sh
+/home/pierres/COURS/slamnav/install/navigation2/share/navigation2/environment/path.dsv
+/home/pierres/COURS/slamnav/install/navigation2/share/navigation2/local_setup.bash
+/home/pierres/COURS/slamnav/install/navigation2/share/navigation2/local_setup.sh
+/home/pierres/COURS/slamnav/install/navigation2/share/navigation2/local_setup.zsh
+/home/pierres/COURS/slamnav/install/navigation2/share/navigation2/local_setup.dsv
+/home/pierres/COURS/slamnav/install/navigation2/share/navigation2/package.dsv
+/home/pierres/COURS/slamnav/install/navigation2/share/ament_index/resource_index/packages/navigation2
+/home/pierres/COURS/slamnav/install/navigation2/share/navigation2/cmake/navigation2Config.cmake
+/home/pierres/COURS/slamnav/install/navigation2/share/navigation2/cmake/navigation2Config-version.cmake
+/home/pierres/COURS/slamnav/install/navigation2/share/navigation2/package.xml
