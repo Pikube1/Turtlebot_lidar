@@ -1,0 +1,97 @@
+[0.025s] Invoking command in '/home/pierres/COURS/slamnav/build/nav2_velocity_smoother': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pierres/COURS/slamnav/src/navigation2/nav2_velocity_smoother -DCMAKE_BUILD_TYPE=Humble -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pierres/COURS/slamnav/install/nav2_velocity_smoother
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.125s] -- The CXX compiler identification is GNU 11.4.0
+[0.130s] -- Detecting C compiler ABI info
+[0.185s] -- Detecting C compiler ABI info - done
+[0.190s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.190s] -- Detecting C compile features
+[0.191s] -- Detecting C compile features - done
+[0.193s] -- Detecting CXX compiler ABI info
+[0.272s] -- Detecting CXX compiler ABI info - done
+[0.283s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.283s] -- Detecting CXX compile features
+[0.284s] -- Detecting CXX compile features - done
+[0.286s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.488s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.540s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.572s] -- Found nav2_common: 1.1.16 (/home/pierres/COURS/slamnav/install/nav2_common/share/nav2_common/cmake)
+[0.574s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.610s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.613s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.618s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.626s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.637s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.668s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.670s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.685s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.690s] -- Looking for pthread.h
+[0.754s] -- Looking for pthread.h - found
+[0.754s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.814s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.815s] -- Found Threads: TRUE  
+[0.871s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.889s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.897s] -- Found nav2_util: 1.1.16 (/home/pierres/COURS/slamnav/install/nav2_util/share/nav2_util/cmake)
+[0.983s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.984s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.984s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.040s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.115s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.151s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.151s] -- Configured cppcheck include dirs: /home/pierres/COURS/slamnav/src/navigation2/nav2_velocity_smoother/include
+[1.151s] -- Configured cppcheck exclude dirs and/or files: 
+[1.152s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.152s] -- Configured cpplint exclude dirs and/or files: 
+[1.153s] -- Added test 'lint_cmake' to check CMake code style
+[1.155s] -- Added test 'uncrustify' to check C / C++ code style
+[1.155s] -- Configured uncrustify additional arguments: 
+[1.155s] -- Added test 'xmllint' to check XML markup files
+[1.160s] -- Configuring done
+[1.227s] -- Generating done
+[1.229s] -- Build files have been written to: /home/pierres/COURS/slamnav/build/nav2_velocity_smoother
+[1.238s] Invoked command in '/home/pierres/COURS/slamnav/build/nav2_velocity_smoother' returned '0': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pierres/COURS/slamnav/src/navigation2/nav2_velocity_smoother -DCMAKE_BUILD_TYPE=Humble -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pierres/COURS/slamnav/install/nav2_velocity_smoother
+[1.239s] Invoking command in '/home/pierres/COURS/slamnav/build/nav2_velocity_smoother': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierres/COURS/slamnav/build/nav2_velocity_smoother -- -j16 -l16
+[1.285s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.285s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.288s] [ 30%] [32mBuilding CXX object CMakeFiles/velocity_smoother_core.dir/src/velocity_smoother.cpp.o[0m
+[2.647s] [ 40%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.683s] [ 40%] Built target gtest_main
+[4.575s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.619s] [ 50%] Built target gtest
+[15.525s] [ 60%] [32m[1mLinking CXX shared library libvelocity_smoother_core.so[0m
+[17.296s] [ 60%] Built target velocity_smoother_core
+[17.367s] [ 70%] [32mBuilding CXX object test/CMakeFiles/velocity_smoother_tests.dir/test_velocity_smoother.cpp.o[0m
+[17.390s] [ 80%] [32mBuilding CXX object CMakeFiles/velocity_smoother.dir/src/main.cpp.o[0m
+[26.816s] [ 90%] [32m[1mLinking CXX executable velocity_smoother[0m
+[28.189s] [ 90%] Built target velocity_smoother
+[43.783s] [100%] [32m[1mLinking CXX executable velocity_smoother_tests[0m
+[47.610s] [100%] Built target velocity_smoother_tests
+[47.654s] Invoked command in '/home/pierres/COURS/slamnav/build/nav2_velocity_smoother' returned '0': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierres/COURS/slamnav/build/nav2_velocity_smoother -- -j16 -l16
+[47.780s] Invoking command in '/home/pierres/COURS/slamnav/build/nav2_velocity_smoother': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pierres/COURS/slamnav/build/nav2_velocity_smoother
+[47.810s] -- Install configuration: "Humble"
+[47.811s] -- Execute custom install script
+[47.811s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/lib/libvelocity_smoother_core.so
+[47.849s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/lib/nav2_velocity_smoother/velocity_smoother
+[47.881s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/include//nav2_velocity_smoother/velocity_smoother.hpp
+[47.903s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/library_path.sh
+[47.931s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/library_path.dsv
+[47.960s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/share/ament_index/resource_index/package_run_dependencies/nav2_velocity_smoother
+[47.993s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/share/ament_index/resource_index/parent_prefix_path/nav2_velocity_smoother
+[48.020s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/ament_prefix_path.sh
+[48.052s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/ament_prefix_path.dsv
+[48.080s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/path.sh
+[48.096s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/path.dsv
+[48.113s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/share/nav2_velocity_smoother/local_setup.bash
+[48.147s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/share/nav2_velocity_smoother/local_setup.sh
+[48.178s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/share/nav2_velocity_smoother/local_setup.zsh
+[48.208s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/share/nav2_velocity_smoother/local_setup.dsv
+[48.242s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/share/nav2_velocity_smoother/package.dsv
+[48.272s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/share/ament_index/resource_index/packages/nav2_velocity_smoother
+[48.305s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/share/ament_index/resource_index/rclcpp_components/nav2_velocity_smoother
+[48.321s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/share/nav2_velocity_smoother/cmake/ament_cmake_export_include_directories-extras.cmake
+[48.337s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/share/nav2_velocity_smoother/cmake/ament_cmake_export_libraries-extras.cmake
+[48.373s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/share/nav2_velocity_smoother/cmake/ament_cmake_export_dependencies-extras.cmake
+[48.403s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/share/nav2_velocity_smoother/cmake/nav2_velocity_smootherConfig.cmake
+[48.434s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/share/nav2_velocity_smoother/cmake/nav2_velocity_smootherConfig-version.cmake
+[48.473s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_velocity_smoother/share/nav2_velocity_smoother/package.xml
+[48.517s] Invoked command in '/home/pierres/COURS/slamnav/build/nav2_velocity_smoother' returned '0': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pierres/COURS/slamnav/build/nav2_velocity_smoother

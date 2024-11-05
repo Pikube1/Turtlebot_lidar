@@ -1,0 +1,87 @@
+[0.024s] Invoking command in '/home/pierres/COURS/slamnav/build/nav_2d_utils': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:/home/pierres/COURS/slamnav/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pierres/COURS/slamnav/src/navigation2/nav2_dwb_controller/nav_2d_utils -DCMAKE_INSTALL_PREFIX=/home/pierres/COURS/slamnav/install/nav_2d_utils
+[0.037s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.138s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.148s] -- Found nav2_common: 1.1.16 (/home/pierres/COURS/slamnav/install/nav2_common/share/nav2_common/cmake)
+[0.148s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.173s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.174s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.179s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.185s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.193s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.219s] -- Found nav_2d_msgs: 1.1.16 (/home/pierres/COURS/slamnav/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[0.229s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.240s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.257s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.258s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.270s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.294s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[0.297s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.298s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.299s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.352s] -- Found nav2_msgs: 1.1.16 (/home/pierres/COURS/slamnav/install/nav2_msgs/share/nav2_msgs/cmake)
+[0.367s] -- Found nav2_util: 1.1.16 (/home/pierres/COURS/slamnav/install/nav2_util/share/nav2_util/cmake)
+[0.434s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.486s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.494s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.495s] -- Configured cppcheck include dirs: /home/pierres/COURS/slamnav/src/navigation2/nav2_dwb_controller/nav_2d_utils/include
+[0.495s] -- Configured cppcheck exclude dirs and/or files: 
+[0.495s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.495s] -- Configured cpplint exclude dirs and/or files: 
+[0.496s] -- Added test 'lint_cmake' to check CMake code style
+[0.496s] -- Added test 'uncrustify' to check C / C++ code style
+[0.496s] -- Configured uncrustify additional arguments: 
+[0.497s] -- Added test 'xmllint' to check XML markup files
+[0.498s] -- Configuring done
+[0.579s] -- Generating done
+[0.580s] -- Build files have been written to: /home/pierres/COURS/slamnav/build/nav_2d_utils
+[0.589s] Invoked command in '/home/pierres/COURS/slamnav/build/nav_2d_utils' returned '0': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:/home/pierres/COURS/slamnav/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pierres/COURS/slamnav/src/navigation2/nav2_dwb_controller/nav_2d_utils -DCMAKE_INSTALL_PREFIX=/home/pierres/COURS/slamnav/install/nav_2d_utils
+[0.591s] Invoking command in '/home/pierres/COURS/slamnav/build/nav_2d_utils': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:/home/pierres/COURS/slamnav/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierres/COURS/slamnav/build/nav_2d_utils -- -j16 -l16
+[0.635s] [35m[1mConsolidate compiler generated dependencies of target conversions[0m
+[0.637s] [35m[1mConsolidate compiler generated dependencies of target path_ops[0m
+[0.639s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.639s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.649s] [ 25%] Built target path_ops
+[0.649s] [ 25%] Built target gtest_main
+[0.652s] [ 37%] Built target gtest
+[0.653s] [ 50%] Built target conversions
+[0.662s] [35m[1mConsolidate compiler generated dependencies of target path_ops_tests[0m
+[0.678s] [ 62%] Built target path_ops_tests
+[0.687s] [35m[1mConsolidate compiler generated dependencies of target 2d_utils_tests[0m
+[0.690s] [35m[1mConsolidate compiler generated dependencies of target tf_help[0m
+[0.705s] [ 75%] Built target 2d_utils_tests
+[0.709s] [ 87%] Built target tf_help
+[0.723s] [35m[1mConsolidate compiler generated dependencies of target tf_help_tests[0m
+[0.739s] [100%] Built target tf_help_tests
+[0.753s] Invoked command in '/home/pierres/COURS/slamnav/build/nav_2d_utils' returned '0': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:/home/pierres/COURS/slamnav/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierres/COURS/slamnav/build/nav_2d_utils -- -j16 -l16
+[0.785s] Invoking command in '/home/pierres/COURS/slamnav/build/nav_2d_utils': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:/home/pierres/COURS/slamnav/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pierres/COURS/slamnav/build/nav_2d_utils
+[0.793s] -- Install configuration: "Humble"
+[0.793s] -- Execute custom install script
+[0.793s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/lib/libconversions.so
+[0.793s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/lib/libpath_ops.so
+[0.793s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/lib/libtf_help.so
+[0.793s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/include//nav_2d_utils/conversions.hpp
+[0.794s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/include//nav_2d_utils/odom_subscriber.hpp
+[0.794s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/include//nav_2d_utils/parameters.hpp
+[0.794s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/include//nav_2d_utils/path_ops.hpp
+[0.794s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/include//nav_2d_utils/tf_help.hpp
+[0.794s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/share/nav_2d_utils/environment/library_path.sh
+[0.794s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/share/nav_2d_utils/environment/library_path.dsv
+[0.794s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/share/ament_index/resource_index/package_run_dependencies/nav_2d_utils
+[0.794s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/share/ament_index/resource_index/parent_prefix_path/nav_2d_utils
+[0.794s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/share/nav_2d_utils/environment/ament_prefix_path.sh
+[0.795s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/share/nav_2d_utils/environment/ament_prefix_path.dsv
+[0.795s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/share/nav_2d_utils/environment/path.sh
+[0.795s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/share/nav_2d_utils/environment/path.dsv
+[0.795s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/share/nav_2d_utils/local_setup.bash
+[0.795s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/share/nav_2d_utils/local_setup.sh
+[0.795s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/share/nav_2d_utils/local_setup.zsh
+[0.795s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/share/nav_2d_utils/local_setup.dsv
+[0.795s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav_2d_utils/share/nav_2d_utils/package.dsv
+[0.802s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/share/ament_index/resource_index/packages/nav_2d_utils
+[0.802s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.802s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[0.802s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/share/nav_2d_utils/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.802s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/share/nav_2d_utils/cmake/nav_2d_utilsConfig.cmake
+[0.802s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/share/nav_2d_utils/cmake/nav_2d_utilsConfig-version.cmake
+[0.802s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav_2d_utils/share/nav_2d_utils/package.xml
+[0.804s] Invoked command in '/home/pierres/COURS/slamnav/build/nav_2d_utils' returned '0': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:/home/pierres/COURS/slamnav/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pierres/COURS/slamnav/build/nav_2d_utils

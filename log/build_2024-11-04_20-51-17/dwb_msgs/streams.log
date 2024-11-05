@@ -1,0 +1,67 @@
+[0.011s] Invoking command in '/home/pierres/COURS/slamnav/build/dwb_msgs': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierres/COURS/slamnav/build/dwb_msgs -- -j16 -l16
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_generator_c[0m
+[0.062s] [  1%] Built target dwb_msgs__cpp
+[0.062s] [  1%] Built target ament_cmake_python_symlink_dwb_msgs
+[0.069s] [ 12%] Built target dwb_msgs__rosidl_generator_c
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_cpp[0m
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_introspection_c[0m
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_c[0m
+[0.086s] [ 24%] Built target dwb_msgs__rosidl_typesupport_introspection_cpp
+[0.091s] [ 35%] Built target dwb_msgs__rosidl_typesupport_introspection_c
+[0.091s] [ 47%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c
+[0.094s] [ 64%] Built target dwb_msgs__rosidl_typesupport_c
+[0.094s] [ 71%] Built target dwb_msgs__rosidl_typesupport_fastrtps_cpp
+[0.094s] [ 82%] Built target dwb_msgs__rosidl_typesupport_cpp
+[0.116s] [ 82%] Built target dwb_msgs
+[0.136s] [ 83%] Built target dwb_msgs__py
+[0.146s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_generator_py[0m
+[0.161s] [ 93%] Built target dwb_msgs__rosidl_generator_py
+[0.168s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.172s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.172s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_c__pyext[0m
+[0.178s] [ 95%] Built target dwb_msgs__rosidl_typesupport_introspection_c__pyext
+[0.186s] [100%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.186s] [100%] Built target dwb_msgs__rosidl_typesupport_c__pyext
+[0.239s] running egg_info
+[0.239s] writing dwb_msgs.egg-info/PKG-INFO
+[0.239s] writing dependency_links to dwb_msgs.egg-info/dependency_links.txt
+[0.239s] writing top-level names to dwb_msgs.egg-info/top_level.txt
+[0.240s] reading manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[0.241s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[0.258s] [100%] Built target ament_cmake_python_build_dwb_msgs_egg
+[0.267s] Invoked command in '/home/pierres/COURS/slamnav/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierres/COURS/slamnav/build/dwb_msgs -- -j16 -l16
+[0.395s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build
+    rc = await extension.build(
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 110, in build
+    if await has_target(args.build_base, 'install'):
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 77, in get_makefile_targets
+    output = await check_output([
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['/usr/bin/cmake', '--build', '/home/pierres/COURS/slamnav/build/dwb_msgs', '--target', 'help'] to pass: gmake: *** [Makefile:2362: help] Interrupt
+

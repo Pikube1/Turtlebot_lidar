@@ -1,0 +1,191 @@
+[0.137s] Invoking command in '/home/pierres/COURS/slamnav/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_costmap_2d/lib:/home/pierres/COURS/slamnav/install/nav2_map_server/lib:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager/lib:/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_voxel_grid/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pierres/COURS/slamnav/src/navigation2/nav2_mppi_controller -DCMAKE_BUILD_TYPE=Humble -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pierres/COURS/slamnav/install/nav2_mppi_controller
+[0.250s] -- The C compiler identification is GNU 11.4.0
+[0.399s] -- The CXX compiler identification is GNU 11.4.0
+[0.422s] -- Detecting C compiler ABI info
+[0.677s] -- Detecting C compiler ABI info - done
+[0.695s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.695s] -- Detecting C compile features
+[0.696s] -- Detecting C compile features - done
+[0.701s] -- Detecting CXX compiler ABI info
+[0.977s] -- Detecting CXX compiler ABI info - done
+[0.997s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.997s] -- Detecting CXX compile features
+[0.997s] -- Detecting CXX compile features - done
+[0.999s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.469s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.660s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.766s] -- Performing Test arch_native_supported
+[2.011s] -- Performing Test arch_native_supported - Success
+[2.029s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.177s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.197s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.232s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.270s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.340s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.522s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.534s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.623s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.649s] -- Looking for pthread.h
+[2.823s] -- Looking for pthread.h - found
+[2.827s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.066s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.072s] -- Found Threads: TRUE  
+[3.251s] -- Found nav2_common: 1.1.16 (/home/pierres/COURS/slamnav/install/nav2_common/share/nav2_common/cmake)
+[3.254s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[3.344s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[3.408s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.544s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.607s] -- Found nav2_core: 1.1.16 (/home/pierres/COURS/slamnav/install/nav2_core/share/nav2_core/cmake)
+[4.058s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.067s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.235s] -- Found tf2_eigen: 0.25.8 (/opt/ros/humble/share/tf2_eigen/cmake)
+[4.252s] -- Performing Test COMPILER_SUPPORTS_AVX512
+[4.435s] -- Performing Test COMPILER_SUPPORTS_AVX512 - Success
+[4.443s] -- Performing Test COMPILER_SUPPORTS_SSE4
+[4.642s] -- Performing Test COMPILER_SUPPORTS_SSE4 - Success
+[4.644s] -- Performing Test COMPILER_SUPPORTS_AVX2
+[4.906s] -- Performing Test COMPILER_SUPPORTS_AVX2 - Success
+[4.929s] -- Performing Test COMPILER_SUPPORTS_FMA
+[5.286s] -- Performing Test COMPILER_SUPPORTS_FMA - Success
+[5.714s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.721s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[5.973s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.214s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.215s] -- Configured cppcheck include dirs: /home/pierres/COURS/slamnav/src/navigation2/nav2_mppi_controller/include
+[10.215s] -- Configured cppcheck exclude dirs and/or files: 
+[10.243s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.243s] -- Configured cpplint exclude dirs and/or files: 
+[10.246s] -- Added test 'lint_cmake' to check CMake code style
+[10.271s] -- Added test 'uncrustify' to check C / C++ code style
+[10.272s] -- Configured uncrustify additional arguments: 
+[10.286s] -- Added test 'xmllint' to check XML markup files
+[10.300s] -- Configuring done
+[13.414s] -- Generating done
+[13.453s] -- Build files have been written to: /home/pierres/COURS/slamnav/build/nav2_mppi_controller
+[13.537s] Invoked command in '/home/pierres/COURS/slamnav/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_costmap_2d/lib:/home/pierres/COURS/slamnav/install/nav2_map_server/lib:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager/lib:/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_voxel_grid/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pierres/COURS/slamnav/src/navigation2/nav2_mppi_controller -DCMAKE_BUILD_TYPE=Humble -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pierres/COURS/slamnav/install/nav2_mppi_controller
+[13.538s] Invoking command in '/home/pierres/COURS/slamnav/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_costmap_2d/lib:/home/pierres/COURS/slamnav/install/nav2_map_server/lib:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager/lib:/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_voxel_grid/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierres/COURS/slamnav/build/nav2_mppi_controller -- -j16 -l16
+[58.936s] [  2%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/controller.cpp.o[0m
+[58.937s] [  4%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/noise_generator.cpp.o[0m
+[58.937s] [  6%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/parameters_handler.cpp.o[0m
+[60.976s] [  8%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/path_handler.cpp.o[0m
+[70.616s] [ 10%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/trajectory_visualizer.cpp.o[0m
+[87.269s] [ 14%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/critic_manager.cpp.o[0m
+[87.269s] [ 14%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/optimizer.cpp.o[0m
+[109.251s] [ 16%] [32m[1mLinking CXX shared library libmppi_controller.so[0m
+[111.490s] [ 16%] Built target mppi_controller
+[111.522s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[111.524s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[111.550s] [ 22%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/obstacles_critic.cpp.o[0m
+[111.550s] [ 24%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/goal_angle_critic.cpp.o[0m
+[111.560s] [ 26%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_align_critic.cpp.o[0m
+[111.562s] [ 28%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/goal_critic.cpp.o[0m
+[111.562s] [ 30%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_align_legacy_critic.cpp.o[0m
+[111.567s] [ 32%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/cost_critic.cpp.o[0m
+[111.573s] [ 34%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_follow_critic.cpp.o[0m
+[114.970s] [ 36%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[115.075s] [ 36%] Built target gtest_main
+[137.380s] [ 38%] [32m[1mLinking CXX static library libgtest.a[0m
+[137.442s] [ 38%] Built target gtest
+[140.251s] [ 40%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/velocity_deadband_critic.cpp.o[0m
+[148.270s] [ 42%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/constraint_critic.cpp.o[0m
+[156.574s] [ 44%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/prefer_forward_critic.cpp.o[0m
+[156.576s] [ 46%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/twirling_critic.cpp.o[0m
+[163.662s] [ 48%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_angle_critic.cpp.o[0m
+[177.518s] [ 51%] [32m[1mLinking CXX shared library libmppi_critics.so[0m
+[180.124s] [ 51%] Built target mppi_critics
+[180.149s] [ 57%] [32mBuilding CXX object test/CMakeFiles/path_handler_test.dir/path_handler_test.cpp.o[0m
+[180.149s] [ 57%] [32mBuilding CXX object test/CMakeFiles/parameter_handler_test.dir/parameter_handler_test.cpp.o[0m
+[180.149s] [ 57%] [32mBuilding CXX object test/CMakeFiles/models_test.dir/models_test.cpp.o[0m
+[180.154s] [ 59%] [32mBuilding CXX object test/CMakeFiles/motion_model_tests.dir/motion_model_tests.cpp.o[0m
+[180.154s] [ 61%] [32mBuilding CXX object test/CMakeFiles/critic_manager_test.dir/critic_manager_test.cpp.o[0m
+[180.158s] [ 67%] [32mBuilding CXX object test/CMakeFiles/noise_generator_test.dir/noise_generator_test.cpp.o[0m
+[180.159s] [ 67%] [32mBuilding CXX object test/CMakeFiles/utils_test.dir/utils_test.cpp.o[0m
+[180.159s] [ 67%] [32mBuilding CXX object test/CMakeFiles/optimizer_unit_tests.dir/optimizer_unit_tests.cpp.o[0m
+[180.159s] [ 69%] [32mBuilding CXX object test/CMakeFiles/trajectory_visualizer_tests.dir/trajectory_visualizer_tests.cpp.o[0m
+[185.912s] [ 71%] [32m[1mLinking CXX executable parameter_handler_test[0m
+[186.478s] [ 71%] Built target parameter_handler_test
+[186.519s] [ 77%] [32mBuilding CXX object test/CMakeFiles/controller_state_transition_test.dir/controller_state_transition_test.cpp.o[0m
+[186.519s] [ 77%] [32mBuilding CXX object test/CMakeFiles/optimizer_smoke_test.dir/optimizer_smoke_test.cpp.o[0m
+[186.519s] [ 77%] [32mBuilding CXX object test/CMakeFiles/critics_tests.dir/critics_tests.cpp.o[0m
+[188.006s] [ 79%] [32m[1mLinking CXX executable path_handler_test[0m
+[189.067s] [ 81%] [32m[1mLinking CXX executable motion_model_tests[0m
+[189.525s] [ 81%] Built target path_handler_test
+[189.688s] [ 81%] Built target motion_model_tests
+[190.664s] [ 83%] [32m[1mLinking CXX executable noise_generator_test[0m
+[191.230s] [ 85%] [32m[1mLinking CXX executable models_test[0m
+[191.544s] [ 85%] Built target noise_generator_test
+[191.839s] [ 85%] Built target models_test
+[195.289s] [ 87%] [32m[1mLinking CXX executable critic_manager_test[0m
+[196.745s] [ 87%] Built target critic_manager_test
+[197.980s] [ 89%] [32m[1mLinking CXX executable utils_test[0m
+[199.384s] [ 89%] Built target utils_test
+[200.436s] [ 91%] [32m[1mLinking CXX executable controller_state_transition_test[0m
+[201.026s] [ 93%] [32m[1mLinking CXX executable optimizer_unit_tests[0m
+[201.032s] [ 95%] [32m[1mLinking CXX executable optimizer_smoke_test[0m
+[201.810s] [ 95%] Built target controller_state_transition_test
+[202.341s] [ 95%] Built target optimizer_smoke_test
+[202.549s] [ 95%] Built target optimizer_unit_tests
+[202.647s] [ 97%] [32m[1mLinking CXX executable critics_tests[0m
+[203.563s] [ 97%] Built target critics_tests
+[206.930s] [100%] [32m[1mLinking CXX executable trajectory_visualizer_tests[0m
+[207.397s] [100%] Built target trajectory_visualizer_tests
+[207.426s] Invoked command in '/home/pierres/COURS/slamnav/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_costmap_2d/lib:/home/pierres/COURS/slamnav/install/nav2_map_server/lib:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager/lib:/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_voxel_grid/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierres/COURS/slamnav/build/nav2_mppi_controller -- -j16 -l16
+[207.536s] Invoking command in '/home/pierres/COURS/slamnav/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_costmap_2d/lib:/home/pierres/COURS/slamnav/install/nav2_map_server/lib:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager/lib:/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_voxel_grid/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pierres/COURS/slamnav/build/nav2_mppi_controller
+[207.547s] -- Install configuration: "Humble"
+[207.548s] -- Execute custom install script
+[207.549s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/lib/libmppi_controller.so
+[207.561s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/lib/libmppi_critics.so
+[207.575s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/controller.hpp
+[207.589s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_data.hpp
+[207.603s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_function.hpp
+[207.612s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_manager.hpp
+[207.623s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/constraint_critic.hpp
+[207.635s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/cost_critic.hpp
+[207.647s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/goal_angle_critic.hpp
+[207.655s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/goal_critic.hpp
+[207.661s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/obstacles_critic.hpp
+[207.671s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_align_critic.hpp
+[207.678s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_align_legacy_critic.hpp
+[207.685s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_angle_critic.hpp
+[207.694s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_follow_critic.hpp
+[207.703s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/prefer_forward_critic.hpp
+[207.714s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/twirling_critic.hpp
+[207.723s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/velocity_deadband_critic.hpp
+[207.733s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/models/constraints.hpp
+[207.744s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/models/control_sequence.hpp
+[207.754s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/models/optimizer_settings.hpp
+[207.765s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/models/path.hpp
+[207.777s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/models/state.hpp
+[207.788s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/models/trajectories.hpp
+[207.798s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/motion_models.hpp
+[207.809s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/optimizer.hpp
+[207.821s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/noise_generator.hpp
+[207.830s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/parameters_handler.hpp
+[207.836s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/path_handler.hpp
+[207.843s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/trajectory_visualizer.hpp
+[207.855s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/utils.hpp
+[207.868s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/library_path.sh
+[207.875s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/library_path.dsv
+[207.883s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/nav2_mppi_controller//mppic.xml
+[207.893s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/nav2_mppi_controller//critics.xml
+[207.904s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/ament_index/resource_index/package_run_dependencies/nav2_mppi_controller
+[207.914s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/ament_index/resource_index/parent_prefix_path/nav2_mppi_controller
+[207.924s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.sh
+[207.934s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.dsv
+[207.946s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.sh
+[207.957s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.dsv
+[207.968s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.bash
+[207.980s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.sh
+[207.989s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.zsh
+[208.000s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.dsv
+[208.009s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/nav2_mppi_controller/package.dsv
+[208.028s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/ament_index/resource_index/packages/nav2_mppi_controller
+[208.042s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_mppi_controller
+[208.054s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_mppi_controller__pluginlib__plugin/nav2_mppi_controller
+[208.067s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[208.079s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[208.091s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[208.099s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig.cmake
+[208.111s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig-version.cmake
+[208.121s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_mppi_controller/share/nav2_mppi_controller/package.xml
+[208.129s] Invoked command in '/home/pierres/COURS/slamnav/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_costmap_2d/lib:/home/pierres/COURS/slamnav/install/nav2_map_server/lib:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager/lib:/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_voxel_grid/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pierres/COURS/slamnav/build/nav2_mppi_controller

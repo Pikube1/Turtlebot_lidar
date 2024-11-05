@@ -1,0 +1,71 @@
+[0.011s] Invoking command in '/home/pierres/COURS/slamnav/build/nav2_util': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pierres/COURS/slamnav/src/navigation2/nav2_util -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pierres/COURS/slamnav/install/nav2_util
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.108s] -- The CXX compiler identification is GNU 11.4.0
+[0.113s] -- Detecting C compiler ABI info
+[0.177s] -- Detecting C compiler ABI info - done
+[0.182s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.182s] -- Detecting C compile features
+[0.182s] -- Detecting C compile features - done
+[0.184s] -- Detecting CXX compiler ABI info
+[0.249s] -- Detecting CXX compiler ABI info - done
+[0.254s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.254s] -- Detecting CXX compile features
+[0.254s] -- Detecting CXX compile features - done
+[0.256s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.380s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.428s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.447s] -- Found nav2_common: 1.1.16 (/home/pierres/COURS/slamnav/install/nav2_common/share/nav2_common/cmake)
+[0.447s] -- Found nav2_msgs: 1.1.16 (/home/pierres/COURS/slamnav/install/nav2_msgs/share/nav2_msgs/cmake)
+[0.470s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.474s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.479s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.487s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.497s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.573s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.620s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.622s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.635s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.640s] -- Looking for pthread.h
+[0.704s] -- Looking for pthread.h - found
+[0.704s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.770s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.771s] -- Found Threads: TRUE  
+[0.833s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.843s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.844s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.844s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.846s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[0.855s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.863s] -- Found bondcpp: 3.0.2 (/opt/ros/humble/share/bondcpp/cmake)
+[0.895s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options 
+[0.897s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.898s] -- Found ament_cmake_pytest: 1.3.10 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[0.899s] -- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[0.900s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.926s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.930s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.930s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.930s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.931s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.952s] -- Found PythonExtra: .so  
+[1.040s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.050s] [31mCMake Error at test/CMakeLists.txt:7 (find_package):
+[1.051s]   By not providing "Findtest_msgs.cmake" in CMAKE_MODULE_PATH this project
+[1.051s]   has asked CMake to find a package configuration file provided by
+[1.051s]   "test_msgs", but CMake did not find one.
+[1.051s] 
+[1.051s]   Could not find a package configuration file provided by "test_msgs" with
+[1.051s]   any of the following names:
+[1.051s] 
+[1.051s]     test_msgsConfig.cmake
+[1.051s]     test_msgs-config.cmake
+[1.051s] 
+[1.051s]   Add the installation prefix of "test_msgs" to CMAKE_PREFIX_PATH or set
+[1.051s]   "test_msgs_DIR" to a directory containing one of the above files.  If
+[1.051s]   "test_msgs" provides a separate development package or SDK, be sure it has
+[1.051s]   been installed.
+[1.052s] 
+[1.052s] [0m
+[1.052s] -- Configuring incomplete, errors occurred!
+[1.052s] See also "/home/pierres/COURS/slamnav/build/nav2_util/CMakeFiles/CMakeOutput.log".
+[1.058s] Invoked command in '/home/pierres/COURS/slamnav/build/nav2_util' returned '1': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pierres/COURS/slamnav/src/navigation2/nav2_util -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pierres/COURS/slamnav/install/nav2_util

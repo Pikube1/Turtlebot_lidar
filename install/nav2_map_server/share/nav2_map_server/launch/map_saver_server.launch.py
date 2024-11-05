@@ -1,0 +1,1 @@
+/home/pierres/COURS/slamnav/src/navigation2/nav2_map_server/launch/map_saver_server.launch.py

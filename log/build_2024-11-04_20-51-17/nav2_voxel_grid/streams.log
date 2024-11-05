@@ -1,0 +1,38 @@
+[0.007s] Invoking command in '/home/pierres/COURS/slamnav/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierres/COURS/slamnav/build/nav2_voxel_grid -- -j16 -l16
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target voxel_grid[0m
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.053s] [ 20%] Built target gtest_main
+[0.055s] [ 60%] Built target voxel_grid
+[0.055s] [ 60%] Built target gtest
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target voxel_grid_tests[0m
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target voxel_grid_bresenham_3d[0m
+[0.078s] [ 80%] Built target voxel_grid_tests
+[0.084s] [100%] Built target voxel_grid_bresenham_3d
+[0.096s] Invoked command in '/home/pierres/COURS/slamnav/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierres/COURS/slamnav/build/nav2_voxel_grid -- -j16 -l16
+[0.115s] Invoking command in '/home/pierres/COURS/slamnav/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pierres/COURS/slamnav/build/nav2_voxel_grid
+[0.122s] -- Install configuration: "Release"
+[0.122s] -- Execute custom install script
+[0.123s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[0.124s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[0.124s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[0.125s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[0.125s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[0.125s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[0.125s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[0.125s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[0.125s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[0.126s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[0.126s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[0.126s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[0.126s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[0.126s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[0.126s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[0.133s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[0.134s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.134s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.134s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[0.134s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[0.134s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[0.134s] -- Up-to-date symlink: /home/pierres/COURS/slamnav/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[0.138s] Invoked command in '/home/pierres/COURS/slamnav/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pierres/COURS/slamnav/build/nav2_voxel_grid

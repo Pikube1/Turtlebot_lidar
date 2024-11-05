@@ -1,0 +1,123 @@
+[0.149s] Invoking command in '/home/pierres/COURS/slamnav/build/nav2_controller': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav_2d_utils:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav_2d_utils:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_costmap_2d/lib:/home/pierres/COURS/slamnav/install/nav_2d_utils/lib:/home/pierres/COURS/slamnav/install/nav2_map_server/lib:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager/lib:/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_voxel_grid/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:/home/pierres/COURS/slamnav/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pierres/COURS/slamnav/src/navigation2/nav2_controller -DCMAKE_BUILD_TYPE=Humble -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pierres/COURS/slamnav/install/nav2_controller
+[0.255s] -- The C compiler identification is GNU 11.4.0
+[0.422s] -- The CXX compiler identification is GNU 11.4.0
+[0.452s] -- Detecting C compiler ABI info
+[0.663s] -- Detecting C compiler ABI info - done
+[0.686s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.687s] -- Detecting C compile features
+[0.688s] -- Detecting C compile features - done
+[0.702s] -- Detecting CXX compiler ABI info
+[0.946s] -- Detecting CXX compiler ABI info - done
+[0.971s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.972s] -- Detecting CXX compile features
+[0.972s] -- Detecting CXX compile features - done
+[0.982s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.388s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.595s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.695s] -- Found nav2_core: 1.1.16 (/home/pierres/COURS/slamnav/install/nav2_core/share/nav2_core/cmake)
+[1.830s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.844s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.872s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.923s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.974s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.138s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.152s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.233s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.269s] -- Looking for pthread.h
+[2.450s] -- Looking for pthread.h - found
+[2.450s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.658s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.659s] -- Found Threads: TRUE  
+[3.408s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.408s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.600s] -- Found nav2_common: 1.1.16 (/home/pierres/COURS/slamnav/install/nav2_common/share/nav2_common/cmake)
+[3.603s] -- Found nav_2d_utils: 1.1.16 (/home/pierres/COURS/slamnav/install/nav_2d_utils/share/nav_2d_utils/cmake)
+[5.629s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.123s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.234s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.780s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.783s] -- Configured cppcheck include dirs: /home/pierres/COURS/slamnav/src/navigation2/nav2_controller/include
+[7.783s] -- Configured cppcheck exclude dirs and/or files: 
+[7.785s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.785s] -- Configured cpplint exclude dirs and/or files: 
+[7.788s] -- Added test 'lint_cmake' to check CMake code style
+[7.790s] -- Added test 'uncrustify' to check C / C++ code style
+[7.790s] -- Configured uncrustify additional arguments: 
+[7.791s] -- Added test 'xmllint' to check XML markup files
+[7.800s] -- Configuring done
+[8.474s] -- Generating done
+[8.490s] -- Build files have been written to: /home/pierres/COURS/slamnav/build/nav2_controller
+[8.528s] Invoked command in '/home/pierres/COURS/slamnav/build/nav2_controller' returned '0': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav_2d_utils:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav_2d_utils:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_costmap_2d/lib:/home/pierres/COURS/slamnav/install/nav_2d_utils/lib:/home/pierres/COURS/slamnav/install/nav2_map_server/lib:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager/lib:/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_voxel_grid/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:/home/pierres/COURS/slamnav/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pierres/COURS/slamnav/src/navigation2/nav2_controller -DCMAKE_BUILD_TYPE=Humble -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pierres/COURS/slamnav/install/nav2_controller
+[8.529s] Invoking command in '/home/pierres/COURS/slamnav/build/nav2_controller': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav_2d_utils:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav_2d_utils:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_costmap_2d/lib:/home/pierres/COURS/slamnav/install/nav_2d_utils/lib:/home/pierres/COURS/slamnav/install/nav2_map_server/lib:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager/lib:/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_voxel_grid/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:/home/pierres/COURS/slamnav/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierres/COURS/slamnav/build/nav2_controller -- -j16 -l16
+[48.227s] [  4%] [32mBuilding CXX object CMakeFiles/simple_progress_checker.dir/plugins/simple_progress_checker.cpp.o[0m
+[48.228s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[48.228s] [ 13%] [32mBuilding CXX object CMakeFiles/simple_goal_checker.dir/plugins/simple_goal_checker.cpp.o[0m
+[48.228s] [ 18%] [32mBuilding CXX object CMakeFiles/controller_server_core.dir/src/controller_server.cpp.o[0m
+[48.228s] [ 22%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[48.228s] [ 22%] Built target gtest_main
+[48.228s] [ 27%] [32m[1mLinking CXX shared library libsimple_progress_checker.so[0m
+[48.228s] [ 27%] Built target simple_progress_checker
+[48.229s] [ 31%] [32m[1mLinking CXX shared library libsimple_goal_checker.so[0m
+[48.229s] [ 31%] Built target simple_goal_checker
+[53.196s] [ 36%] [32m[1mLinking CXX shared library libcontroller_server_core.so[0m
+[58.271s] [ 36%] Built target controller_server_core
+[58.311s] [ 40%] [32mBuilding CXX object CMakeFiles/stopped_goal_checker.dir/plugins/stopped_goal_checker.cpp.o[0m
+[63.350s] [ 45%] [32m[1mLinking CXX shared library libstopped_goal_checker.so[0m
+[63.749s] [ 45%] Built target stopped_goal_checker
+[63.775s] [ 50%] [32mBuilding CXX object CMakeFiles/controller_server.dir/src/main.cpp.o[0m
+[70.864s] [ 54%] [32m[1mLinking CXX executable controller_server[0m
+[72.016s] [ 54%] Built target controller_server
+[72.043s] [ 59%] [32mBuilding CXX object CMakeFiles/pose_progress_checker.dir/plugins/pose_progress_checker.cpp.o[0m
+[75.457s] [ 63%] [32m[1mLinking CXX shared library libpose_progress_checker.so[0m
+[75.864s] [ 63%] Built target pose_progress_checker
+[75.902s] [ 68%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[78.938s] [ 72%] [32m[1mLinking CXX static library libgtest.a[0m
+[79.022s] [ 72%] Built target gtest
+[79.056s] [ 77%] [32mBuilding CXX object plugins/test/CMakeFiles/pctest.dir/progress_checker.cpp.o[0m
+[83.669s] [ 81%] [32m[1mLinking CXX executable pctest[0m
+[84.299s] [ 81%] Built target pctest
+[84.333s] [ 86%] [32mBuilding CXX object test/CMakeFiles/test_dynamic_parameters.dir/test_dynamic_parameters.cpp.o[0m
+[96.621s] [ 90%] [32m[1mLinking CXX executable test_dynamic_parameters[0m
+[99.709s] [ 90%] Built target test_dynamic_parameters
+[99.740s] [ 95%] [32mBuilding CXX object plugins/test/CMakeFiles/gctest.dir/goal_checker.cpp.o[0m
+[105.175s] [100%] [32m[1mLinking CXX executable gctest[0m
+[107.512s] [100%] Built target gctest
+[107.529s] Invoked command in '/home/pierres/COURS/slamnav/build/nav2_controller' returned '0': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav_2d_utils:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav_2d_utils:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_costmap_2d/lib:/home/pierres/COURS/slamnav/install/nav_2d_utils/lib:/home/pierres/COURS/slamnav/install/nav2_map_server/lib:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager/lib:/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_voxel_grid/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:/home/pierres/COURS/slamnav/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierres/COURS/slamnav/build/nav2_controller -- -j16 -l16
+[107.583s] Invoking command in '/home/pierres/COURS/slamnav/build/nav2_controller': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav_2d_utils:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav_2d_utils:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_costmap_2d/lib:/home/pierres/COURS/slamnav/install/nav_2d_utils/lib:/home/pierres/COURS/slamnav/install/nav2_map_server/lib:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager/lib:/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_voxel_grid/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:/home/pierres/COURS/slamnav/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pierres/COURS/slamnav/build/nav2_controller
+[107.590s] -- Install configuration: "Humble"
+[107.591s] -- Execute custom install script
+[107.592s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/lib/libsimple_progress_checker.so
+[107.601s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/lib/libpose_progress_checker.so
+[107.611s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/lib/libsimple_goal_checker.so
+[107.620s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/lib/libstopped_goal_checker.so
+[107.628s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/lib/libcontroller_server_core.so
+[107.637s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/lib/nav2_controller/controller_server
+[107.646s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/include//nav2_controller/controller_server.hpp
+[107.659s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/include//nav2_controller/plugins/pose_progress_checker.hpp
+[107.668s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/include//nav2_controller/plugins/simple_goal_checker.hpp
+[107.683s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/include//nav2_controller/plugins/simple_progress_checker.hpp
+[107.696s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/include//nav2_controller/plugins/stopped_goal_checker.hpp
+[107.710s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/share/nav2_controller/environment/library_path.sh
+[107.719s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/share/nav2_controller/environment/library_path.dsv
+[107.731s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/share/nav2_controller//plugins.xml
+[107.741s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/share/ament_index/resource_index/package_run_dependencies/nav2_controller
+[107.755s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/share/ament_index/resource_index/parent_prefix_path/nav2_controller
+[107.769s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/share/nav2_controller/environment/ament_prefix_path.sh
+[107.783s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/share/nav2_controller/environment/ament_prefix_path.dsv
+[107.797s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/share/nav2_controller/environment/path.sh
+[107.811s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/share/nav2_controller/environment/path.dsv
+[107.825s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/share/nav2_controller/local_setup.bash
+[107.840s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/share/nav2_controller/local_setup.sh
+[107.854s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/share/nav2_controller/local_setup.zsh
+[107.868s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/share/nav2_controller/local_setup.dsv
+[107.883s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/share/nav2_controller/package.dsv
+[107.898s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/share/ament_index/resource_index/packages/nav2_controller
+[107.913s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_controller
+[107.922s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/share/ament_index/resource_index/rclcpp_components/nav2_controller
+[107.937s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/share/nav2_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[107.946s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/share/nav2_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[107.955s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/share/nav2_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[107.965s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/share/nav2_controller/cmake/nav2_controllerConfig.cmake
+[107.974s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/share/nav2_controller/cmake/nav2_controllerConfig-version.cmake
+[107.989s] -- Symlinking: /home/pierres/COURS/slamnav/install/nav2_controller/share/nav2_controller/package.xml
+[108.008s] Invoked command in '/home/pierres/COURS/slamnav/build/nav2_controller' returned '0': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav_2d_utils:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_core:/home/pierres/COURS/slamnav/install/nav2_costmap_2d:/home/pierres/COURS/slamnav/install/nav_2d_utils:/home/pierres/COURS/slamnav/install/nav2_map_server:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager:/home/pierres/COURS/slamnav/install/nav2_util:/home/pierres/COURS/slamnav/install/nav2_voxel_grid:/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav_2d_msgs:/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_costmap_2d/lib:/home/pierres/COURS/slamnav/install/nav_2d_utils/lib:/home/pierres/COURS/slamnav/install/nav2_map_server/lib:/home/pierres/COURS/slamnav/install/nav2_lifecycle_manager/lib:/home/pierres/COURS/slamnav/install/nav2_util/lib:/home/pierres/COURS/slamnav/install/nav2_voxel_grid/lib:/home/pierres/COURS/slamnav/install/nav2_msgs/lib:/home/pierres/COURS/slamnav/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pierres/COURS/slamnav/build/nav2_controller

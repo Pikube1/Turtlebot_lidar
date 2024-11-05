@@ -1,0 +1,1 @@
+/home/pierres/COURS/slamnav/src/navigation2/nav2_bringup/launch/navigation_launch.py

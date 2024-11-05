@@ -1,0 +1,1 @@
+/home/pierres/COURS/slamnav/src/slam_toolbox/launch/merge_maps_kinematic_launch.py

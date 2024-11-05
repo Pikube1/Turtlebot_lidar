@@ -1,0 +1,67 @@
+[0.007s] Invoking command in '/home/pierres/COURS/slamnav/build/nav2_msgs': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierres/COURS/slamnav/build/nav2_msgs -- -j16 -l16
+[0.060s] [  0%] Built target nav2_msgs__cpp
+[0.063s] [  0%] Built target ament_cmake_python_symlink_nav2_msgs
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target nav2_msgs__rosidl_generator_c[0m
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target nav2_msgs__rosidl_typesupport_cpp[0m
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target nav2_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target nav2_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.091s] [ 12%] Built target nav2_msgs__rosidl_generator_c
+[0.093s] [ 24%] Built target nav2_msgs__rosidl_typesupport_cpp
+[0.097s] [ 37%] Built target nav2_msgs__rosidl_typesupport_introspection_cpp
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target nav2_msgs__rosidl_typesupport_c[0m
+[0.103s] [35m[1mConsolidate compiler generated dependencies of target nav2_msgs__rosidl_typesupport_introspection_c[0m
+[0.103s] [ 49%] Built target nav2_msgs__rosidl_typesupport_fastrtps_cpp
+[0.113s] [35m[1mConsolidate compiler generated dependencies of target nav2_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.118s] [ 61%] Built target nav2_msgs__rosidl_typesupport_c
+[0.121s] [ 74%] Built target nav2_msgs__rosidl_typesupport_introspection_c
+[0.150s] [ 87%] Built target nav2_msgs__rosidl_typesupport_fastrtps_c
+[0.171s] [ 87%] Built target nav2_msgs
+[0.190s] [ 87%] Built target nav2_msgs__py
+[0.204s] [35m[1mConsolidate compiler generated dependencies of target nav2_msgs__rosidl_generator_py[0m
+[0.234s] [ 99%] Built target nav2_msgs__rosidl_generator_py
+[0.243s] [35m[1mConsolidate compiler generated dependencies of target nav2_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.245s] [35m[1mConsolidate compiler generated dependencies of target nav2_msgs__rosidl_typesupport_c__pyext[0m
+[0.246s] [35m[1mConsolidate compiler generated dependencies of target nav2_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.253s] [ 99%] Built target nav2_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.257s] [100%] Built target nav2_msgs__rosidl_typesupport_introspection_c__pyext
+[0.257s] [100%] Built target nav2_msgs__rosidl_typesupport_c__pyext
+[0.266s] running egg_info
+[0.267s] writing nav2_msgs.egg-info/PKG-INFO
+[0.267s] writing dependency_links to nav2_msgs.egg-info/dependency_links.txt
+[0.267s] writing top-level names to nav2_msgs.egg-info/top_level.txt
+[0.270s] reading manifest file 'nav2_msgs.egg-info/SOURCES.txt'
+[0.271s] writing manifest file 'nav2_msgs.egg-info/SOURCES.txt'
+[0.296s] [100%] Built target ament_cmake_python_build_nav2_msgs_egg
+[0.306s] Invoked command in '/home/pierres/COURS/slamnav/build/nav2_msgs' returned '0': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_common:/home/pierres/COURS/slamnav/install/slam_toolbox:/opt/ros/humble:/home/pierres/COURS/slamnav/install/slamnav_turtlebot PYTHONPATH=/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierres/COURS/slamnav/build/nav2_msgs -- -j16 -l16
+[0.687s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build
+    rc = await extension.build(
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 110, in build
+    if await has_target(args.build_base, 'install'):
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 57, in has_target
+    return target in await get_makefile_targets(path)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 77, in get_makefile_targets
+    output = await check_output([
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['/usr/bin/cmake', '--build', '/home/pierres/COURS/slamnav/build/nav2_msgs', '--target', 'help'] to pass: gmake: *** [Makefile:7144: help] Interrupt
+

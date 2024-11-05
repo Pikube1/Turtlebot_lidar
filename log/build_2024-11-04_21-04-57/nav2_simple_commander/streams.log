@@ -1,0 +1,87 @@
+[0.458s] Invoking command in '/home/pierres/COURS/slamnav/build/nav2_simple_commander': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages:/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/pierres/COURS/slamnav/build/nav2_simple_commander/build
+[0.634s] running develop
+[0.758s] Removing /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2-simple-commander.egg-link (link to .)
+[0.777s] Invoked command in '/home/pierres/COURS/slamnav/build/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages:/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/pierres/COURS/slamnav/build/nav2_simple_commander/build
+[0.779s] Invoking command in '/home/pierres/COURS/slamnav/src/navigation2/nav2_simple_commander': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages:/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/pierres/COURS/slamnav/build/nav2_simple_commander/build install --record /home/pierres/COURS/slamnav/build/nav2_simple_commander/install.log --single-version-externally-managed install_data --force
+[0.954s] running egg_info
+[0.954s] writing ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/PKG-INFO
+[0.955s] writing dependency_links to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/dependency_links.txt
+[0.955s] writing entry points to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/entry_points.txt
+[0.955s] writing requirements to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/requires.txt
+[0.955s] writing top-level names to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/top_level.txt
+[0.956s] reading manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[0.957s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[0.957s] running build
+[0.958s] running build_py
+[0.958s] creating /home/pierres/COURS/slamnav/build/nav2_simple_commander/build
+[0.958s] creating /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib
+[0.958s] creating /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.958s] copying nav2_simple_commander/robot_navigator.py -> /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.958s] copying nav2_simple_commander/demo_inspection.py -> /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.958s] copying nav2_simple_commander/demo_picking.py -> /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.958s] copying nav2_simple_commander/example_waypoint_follower.py -> /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.958s] copying nav2_simple_commander/__init__.py -> /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.958s] copying nav2_simple_commander/line_iterator.py -> /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.959s] copying nav2_simple_commander/example_nav_to_pose.py -> /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.959s] copying nav2_simple_commander/demo_recoveries.py -> /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.959s] copying nav2_simple_commander/example_follow_path.py -> /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.959s] copying nav2_simple_commander/costmap_2d.py -> /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.959s] copying nav2_simple_commander/demo_security.py -> /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.959s] copying nav2_simple_commander/example_assisted_teleop.py -> /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.959s] copying nav2_simple_commander/example_nav_through_poses.py -> /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[0.959s] running install
+[0.959s] running install_lib
+[0.959s] creating /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.960s] copying /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/robot_navigator.py -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.960s] copying /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_inspection.py -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.960s] copying /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_picking.py -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.960s] copying /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_waypoint_follower.py -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.960s] copying /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/__init__.py -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.960s] copying /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/line_iterator.py -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.960s] copying /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_to_pose.py -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.960s] copying /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_recoveries.py -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.960s] copying /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_follow_path.py -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.960s] copying /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/costmap_2d.py -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.961s] copying /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_security.py -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.961s] copying /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_assisted_teleop.py -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.961s] copying /home/pierres/COURS/slamnav/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_through_poses.py -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[0.961s] byte-compiling /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/robot_navigator.py to robot_navigator.cpython-310.pyc
+[0.963s] byte-compiling /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_inspection.py to demo_inspection.cpython-310.pyc
+[0.963s] byte-compiling /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_picking.py to demo_picking.cpython-310.pyc
+[0.964s] byte-compiling /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_waypoint_follower.py to example_waypoint_follower.cpython-310.pyc
+[0.964s] byte-compiling /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/__init__.py to __init__.cpython-310.pyc
+[0.964s] byte-compiling /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/line_iterator.py to line_iterator.cpython-310.pyc
+[0.965s] byte-compiling /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_to_pose.py to example_nav_to_pose.cpython-310.pyc
+[0.965s] byte-compiling /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_recoveries.py to demo_recoveries.cpython-310.pyc
+[0.965s] byte-compiling /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_follow_path.py to example_follow_path.cpython-310.pyc
+[0.966s] byte-compiling /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/costmap_2d.py to costmap_2d.cpython-310.pyc
+[0.966s] byte-compiling /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_security.py to demo_security.cpython-310.pyc
+[0.966s] byte-compiling /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_assisted_teleop.py to example_assisted_teleop.cpython-310.pyc
+[0.967s] byte-compiling /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_through_poses.py to example_nav_through_poses.cpython-310.pyc
+[0.967s] running install_data
+[0.967s] copying resource/nav2_simple_commander -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[0.967s] copying package.xml -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/share/nav2_simple_commander
+[0.967s] copying launch/warehouse.world -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/share/nav2_simple_commander
+[0.967s] copying launch/nav_through_poses_example_launch.py -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/share/nav2_simple_commander
+[0.967s] copying launch/security_demo_launch.py -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/share/nav2_simple_commander
+[0.968s] copying launch/waypoint_follower_example_launch.py -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/share/nav2_simple_commander
+[0.968s] copying launch/assisted_teleop_example_launch.py -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/share/nav2_simple_commander
+[0.968s] copying launch/follow_path_example_launch.py -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/share/nav2_simple_commander
+[0.968s] copying launch/recoveries_example_launch.py -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/share/nav2_simple_commander
+[0.968s] copying launch/nav_to_pose_example_launch.py -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/share/nav2_simple_commander
+[0.968s] copying launch/inspection_demo_launch.py -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/share/nav2_simple_commander
+[0.968s] copying launch/picking_demo_launch.py -> /home/pierres/COURS/slamnav/install/nav2_simple_commander/share/nav2_simple_commander
+[0.968s] running install_egg_info
+[0.969s] Copying ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info to /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander-1.0.0-py3.10.egg-info
+[0.970s] running install_scripts
+[0.984s] Installing demo_inspection script to /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.984s] Installing demo_picking script to /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.984s] Installing demo_recoveries script to /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.984s] Installing demo_security script to /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.984s] Installing example_assisted_teleop script to /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.984s] Installing example_follow_path script to /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.984s] Installing example_nav_through_poses script to /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.985s] Installing example_nav_to_pose script to /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.985s] Installing example_waypoint_follower script to /home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.985s] writing list of installed files to '/home/pierres/COURS/slamnav/build/nav2_simple_commander/install.log'
+[1.004s] Invoked command in '/home/pierres/COURS/slamnav/src/navigation2/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierres/COURS/slamnav/install/nav2_msgs:/home/pierres/COURS/slamnav/install/nav2_common:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/pierres/COURS/slamnav/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierres/COURS/slamnav/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pierres/COURS/slamnav/install/nav2_simple_commander/lib/python3.10/site-packages:/home/pierres/COURS/slamnav/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/pierres/COURS/slamnav/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/pierres/COURS/slamnav/build/nav2_simple_commander/build install --record /home/pierres/COURS/slamnav/build/nav2_simple_commander/install.log --single-version-externally-managed install_data --force
